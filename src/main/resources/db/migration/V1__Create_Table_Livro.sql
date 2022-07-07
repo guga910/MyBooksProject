@@ -10,5 +10,8 @@ CREATE TABLE `livros` (
   `registro` datetime DEFAULT NULL,
   `sub_categoria` varchar(255) DEFAULT NULL,
   `titulo` varchar(255) NOT NULL,
+  `isbn` VARCHAR(13) DEFAULT NULL,
+  `paginas` INT DEFAULT NULL,
+
   PRIMARY KEY (`id`)
 )
